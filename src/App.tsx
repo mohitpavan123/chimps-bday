@@ -19,7 +19,7 @@ const App: React.FC = () => {
         <BasicWishes />
         <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Wishes </h1>
         <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
-          "Here are our best wishes for you mentor!"
+          "Edo formality le bro, ee section teeseddam anukunna 😛"
         </h4>
         <Messages/>
         <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Cric-Quiz </h1>
