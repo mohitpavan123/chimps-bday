@@ -17,14 +17,14 @@ const App: React.FC = () => {
           "Edo formality le bro, ee section teeseddam anukunna 😛"
         </h4>
         <Messages/>
-        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Cric-Quiz </h1>
-        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
-          "Because you like cricket, here is a quiz for you on the same, flip the card to see the question and click on the see answer button to view the answer!"
-        </h4>
-        <CricketQuiz />
         <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Truth or dare </h1>
         <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
           "Saradaga konni truth or dare ques rasam frends, flip cheste kanipistay ques, silent ga avanni cheseyyadame nv..."
+        </h4>
+        <CricketQuiz />
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Memories </h1>
+        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
+          "Cards flip cheste konni memories kanipistay mowa, emjoy chimps..."
         </h4>
         <Memories />
         <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> A small youtube video wishes for you! </h1>
