@@ -7,11 +7,6 @@ import YouTubeVideo from './YouTubeVideoWishes';
 import { PrimaryButton, Stack } from '@fluentui/react';
 
 const App: React.FC = () => {
-  // const [currentPage, setCurrentPage] = useState<number>(1);
-
-  // const handlePageChange = (page: number) => {
-  //   setCurrentPage(page);
-  // };
 
   return (
     <div style={{ position: 'relative', backgroundColor: '#f3f3f3' }}>
@@ -27,23 +22,19 @@ const App: React.FC = () => {
           "Because you like cricket, here is a quiz for you on the same, flip the card to see the question and click on the see answer button to view the answer!"
         </h4>
         <CricketQuiz />
-        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Memories together </h1>
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> Truth or dare </h1>
         <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
-          "Flip the cards to remember the good times we all had together and flip back to open the image!"
+          "Saradaga konni truth or dare ques rasam frends, flip cheste kanipistay ques, silent ga avanni cheseyyadame nv..."
         </h4>
         <Memories />
-        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> A small dare awaits you </h1>
-        <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
-          "Prank call to sulabh/prativen and act you are a HR and talk random topic which ever you want :p"
-        </h4>
         <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}> A small youtube video wishes for you! </h1>
         <h4 style = {{ width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '20px', paddingBottom : '50px' }}> 
-          "Finally lets end this fun with a video to wish you a very happy birthday!"
+          "Finally oka chinna video neekosam choosi enjoy chey pandago frens."
         </h4>
         <YouTubeVideo />
-        <h4 style = {{fontWeight : '400px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '30px' }}>Here you go, you can start reviewing the&nbsp;<a href="https://github.com/mohitpavan123/my-mentor-bday" target="_blank">code</a>&nbsp;and you can give comments too :p.</h4>
+        <h4 style = {{fontWeight : '400px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '30px' }}>Idigo chinna gift kinda &nbsp;<a href="https://github.com/mohitpavan123/chimps-bday" target="_blank">code</a>&nbsp; rasam enjoy pandago.</h4>
 
-        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}>Happy birthday once again radhikaa!!</h1>
+        <h1 style = {{fontWeight : '600px', width: 'auto', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', marginBottom: '20px', fontSize : '50px' }}>Happy birthday once again chimpuuu brooo!!</h1>
 
         
       </div>

@@ -7,14 +7,14 @@ import FlipCard from './FlipCard';
 const CricketQuiz: React.FC = () => {
   return (
     <Stack horizontal wrap tokens={{ childrenGap: 100 }} styles={{ root: { backgroundColor: '#f3f3f3', alignItems : 'center', justifyContent : 'center', paddingBottom : '100px', width : '100%' } }}>
-      {QuizQnA.map((QnA: { question: string; answer: string; }, index) => (
+      {QuizQnA.map((QnA: { question: string; pic: string}, index) => (
         <Stack.Item
           grow
           disableShrink
           styles={{ root: { width: '20%', maxWidth: '30%', marginBottom: '50px', display: 'flex', justifyContent: 'center', alignItems : 'center' } }} 
           key={index}
         >
-          <FlipCard question={QnA.question} answer={QnA.answer} />
+          <FlipCard question={QnA.question} pic={QnA.pic}/>
         </Stack.Item>
     ))}
     </Stack>
